@@ -3,92 +3,46 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mundo da Moda</title>
+    <title>Moda e Estilo</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f8f8f8;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 20px;
-            line-height: 1.6;
         }
         header {
             text-align: center;
-            background-color: #ff69b4;
-            padding: 20px;
-            border-radius: 10px;
-            color: white;
+            color: #333;
         }
         h1 {
-            margin: 0;
+            margin-bottom: 10px;
         }
-        section {
-            background-color: #fff;
-            margin-top: 20px;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        .imagem-moda {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 20px auto;
+            border-radius: 8px;
         }
-        h2 {
-            color: #ff69b4;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 30px;
-            font-size: 0.9em;
+        p {
+            max-width: 800px;
+            margin: 0 auto 20px;
+            line-height: 1.6;
             color: #555;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Mundo da Moda</h1>
-        <p>Descubra as tendências, nomes importantes, curiosidades e dicas!</p>
+        <h1>Moda e Estilo</h1>
+        <p>Descubra as últimas tendências e dicas de moda!</p>
     </header>
-
     <section>
-        <h2>O que está na moda?</h2>
-        <ul>
-            <li>Estilo minimalista com cores neutras</li>
-            <li>Peças oversized e confortáveis</li>
-            <li>Moda sustentável e ecológica</li>
-            <li>Estampas florais e tie-dye</li>
-            <li>Acessórios chunky e brincos grandes</li>
-        </ul>
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.1&auto=format&fit=crop&w=800&q=80" alt="Moda moderna" class="imagem-moda" />
+        <p>
+            A moda está sempre evoluindo, trazendo novas tendências e estilos para expressar sua personalidade. Seja você fã de looks clássicos ou ousados, o importante é se sentir bem e confiante com o que veste.
+        </p>
     </section>
-
-    <section>
-        <h2>Nomes importantes na moda</h2>
-        <ul>
-            <li>Chanel</li>
-            <li>Giorgio Armani</li>
-            <li>Valentino Garavani</li>
-            <li>Virgil Abloh</li>
-            <li>Stella McCartney</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Curiosidades</h2>
-        <ul>
-            <li>O vestido mais caro do mundo foi criado com diamantes e custa milhões de dólares.</li>
-            <li>O famoso logotipo da Nike foi criado por um estudante de design por apenas 35 dólares.</li>
-            <li>O estilo "Haute Couture" é uma moda de alta costura exclusiva e feita sob medida.</li>
-            <li>O uso de cores na moda pode influenciar o humor das pessoas.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Dicas de moda</h2>
-        <ul>
-            <li>Invista em peças clássicas que nunca saem de moda.</li>
-            <li>Combine cores neutras com acessórios coloridos para um visual equilibrado.</li>
-            <li>Prefira roupas que valorizem seu tipo de corpo.</li>
-            <li>Esteja atento às tendências, mas adapte-as ao seu estilo pessoal.</li>
-            <li>Cuide bem das suas roupas para que durem mais tempo.</li>
-        </ul>
-    </section>
+</body>
+</html>
